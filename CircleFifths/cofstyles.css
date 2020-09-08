@@ -1,0 +1,70 @@
+*, *::after, *::before {
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+   background: linear-gradient(to left, rgb(46, 255, 74),hsl(175, 100%, 50%));
+}
+
+
+h1 {
+   text-align: center;
+   color:maroon;
+   padding-bottom: 1em;
+
+}
+.circleoffifths {
+   width:300px;
+   height:300px;
+   background-color: rgb(26, 50, 94);
+   border-radius: 50%;
+   border: 2px solid black;
+   position: relative;
+   margin:auto;
+
+}
+
+.circleoffifths .key {
+   --rotation: 0;
+   position:absolute;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   transform: rotate(var(--rotation));
+  
+   
+
+}
+
+.circleoffifths .F { --rotation:345deg;}
+.circleoffifths .C { --rotation:15deg;}
+.circleoffifths .G { --rotation:45deg;}
+.circleoffifths .D { --rotation:75deg;}
+.circleoffifths .A { --rotation:105deg;}
+.circleoffifths .E { --rotation:135deg;}
+.circleoffifths .B { --rotation:165deg;}
+.circleoffifths .Gb { --rotation:195deg;}
+.circleoffifths .Db { --rotation:225deg;}
+.circleoffifths .Ab { --rotation:255deg;}
+.circleoffifths .Eb { --rotation:285deg;}
+.circleoffifths .Bb { --rotation:315deg;}
+
+
+
+   
+
+
+button {
+   border-radius: 50%;
+   font-size: 1.2em;
+   width:40px;
+   height:40px;
+   text-align: center;
+   padding:0.2em;
+   margin: 0.6em;
+
+   
+}
+
+
